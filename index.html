@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 Resources | Crypto Rankings | Blockchain Explained</title>
+    <style>
+        :root {
+            --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+            --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+            --bg: #fff;
+            --accent-bg: #f5f7ff;
+            --text: #212121;
+            --text-light: #585858;
+            --border: #898EA4;
+            --accent: #0d47a1;
+            --code: #d81b60;
+            --preformatted: #444;
+            --marked: #ffdd33;
+            --disabled: #efefef
+        }
+
+        @media (prefers-color-scheme:dark) {
+            :root {
+                color-scheme: dark;
+                --bg: #212121;
+                --accent-bg: #2b2b2b;
+                --text: #dcdcdc;
+                --text-light: #ababab;
+                --accent: #ffb300;
+                --code: #f06292;
+                --preformatted: #ccc;
+                --disabled: #111
+            }
+
+
+            video {
+                opacity: .8
+            }
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+        }
+
+
+        progress {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none
+        }
+
+        html {
+            font-family: var(--sans-font);
+            scroll-behavior: smooth
+        }
+
+        body {
+            color: var(--text);
+            background-color: var(--bg);
+            font-size: 1rem;
+            line-height: 1.2rem;
+            display: grid;
+            grid-template-columns: 1fr min(45rem, 90%) 1fr;
+            margin: 0;
+        }
+
+        body>* {
+            grid-column: 2
+        }
+
+        body>header {
+            background-color: var(--accent-bg);
+            border-bottom: 1px solid var(--border);
+            text-align: center;
+            grid-column: 1/-1
+        }
+
+        body>header h1 {
+            max-width: 1200px;
+            margin: 1rem auto
+        }
+
+        body>header p {
+            max-width: 40rem;
+            margin: 1rem auto;
+            font-size: 1.2rem
+        }
+
+        body>footer {
+            margin-top: 1rem;
+            padding: 1rem 1rem 1.5rem 1rem;
+            color: var(--text-light);
+            font-size: .9rem;
+            text-align: center;
+            border-top: 1px solid var(--border)
+        }
+
+        h1 {
+            font-size: 3rem
+        }
+
+        h4 {
+            font-size: 1.44rem
+        }
+
+        small {
+            margin-left: 0.5rem;
+            font-style: italic;
+        }
+
+        h1,
+        h4,
+        p {
+            overflow-wrap: break-word;
+            margin: 0.5rem 0;
+        }
+
+        h1 {
+            line-height: 1.1
+        }
+
+        @media only screen and (max-width:720px) {
+            h1 {
+                font-size: 2.5rem
+            }
+
+            h4 {
+                font-size: 1.25rem
+            }
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a,
+        a:visited {
+            color: var(--accent)
+        }
+
+        a:hover {
+            text-decoration: none
+        }
+
+        abbr[title] {
+            cursor: help;
+            text-decoration-line: underline;
+            text-decoration-style: dotted
+        }
+
+
+        details,
+        progress {
+            background-color: var(--accent-bg);
+            border: 1px solid var(--border);
+            border-radius: 5px;
+            margin-bottom: 0.5rem
+        }
+
+        /* article, */
+
+        section {
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            margin: 1rem 0
+        }
+
+        section+section,
+        section:first-child {
+            border-top: 0;
+            padding-top: 0
+        }
+
+        section:last-child {
+            border-bottom: 0;
+            padding-bottom: 0
+        }
+
+        details {
+            padding: .7rem 1rem;
+        }
+
+        section>details:first-of-type {
+            margin-top: 1rem;
+        }
+
+        summary {
+            cursor: pointer;
+            padding: .7rem 1rem;
+            margin: -.7rem -1rem;
+        }
+
+        details[open]>summary+* {
+            margin-top: 0
+        }
+
+        details[open]>summary {
+            margin-bottom: .5rem
+        }
+
+        details[open]>:last-child {
+            margin-bottom: 0
+        }
+
+
+        video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px
+        }
+
+        code {
+            font-family: var(--mono-font);
+            color: var(--code)
+        }
+
+        strong {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>The Big Crypto List</h1>
+        <p>concise explanations of everything blockchain & web3</p>
+    </header>
+    <main>
+        <section>
+            <p><strong>Blockchains</strong> are shared ledgers of cryptographically-authenticated transactions,
+                verified and updated by
+                peer-to-peer
+                networks of users. Often used to store and transfer value in the form of a native on-chain currency,
+                or to register and invoke blocks of code.
+            </p>
+            <details>
+                <summary><strong>Bitcoin</strong> is the oldest and best-known decentralized digital currency, but has
+                    limited programmability. It exists
+                    entirely on its own user-run, proof-of-work blockchain.</summary>
+                <article>
+                    <p><small>Launched: Jan 2009</small><br>
+                        <small>Founder: Satoshi Nakamoto (pseudonym)</small><br><small>Token: Bitcoin</small>
+                    </p>
+
+                    <p>Features:</p>
+                    <ul>
+                        <li>Any internet-connected computer may become a network participant by running free,
+                            open-source “bitcoin
+                            node” software. </li>
+                        <li>Nodes compete to process and record blocks of cryptographically-signed transactions
+                            (transferring Bitcoin
+                            from one account to another) onto the end of a continuously-updated, shared public
+                            ledger
+                            (the blockchain). <small> <a
+                                    href="https://www.youtube.com/watch?v=bBC-nXj3Ng4">video</a></small>
+                        </li>
+                        <li>Nodes are rewarded with newly-minted Bitcoin, which are often, in practice, sold into
+                            the
+                            open market to
+                            cover the cost of energy and computer hardware.</li>
+                        <li>A “Bitcoin account” is simply a string of 26-35 alphanumeric characters derived from
+                            passing
+                            a chosen 256
+                            bit “private key” through a one-way hashing function. This process is also used to “sign
+                            transactions”
+                            transferring away bitcoin owned by the account.</li>
+                        <li>All accounts own zero Bitcoin by default, but can receive them from transactions
+                            initiated
+                            by other
+                            Bitcoin-owning accounts, or as a block reward for being a mining node.</li>
+                        <li>Several major US financial institutions, including BlackRock, U.S. Bank and Bank of New
+                            York
+                            Mellon offer
+                            their clients exposure to or custody of digital assets including Bitcoin.</li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li>The collective environmental impact of running bitcoin node software is significant, due
+                            to
+                            the
+                            energy-intensive proof-of-work algorithm used to secure the network.</li>
+                        <li>Bitcoins are essentially uncollateralized assets, backed only by the faith of its users,
+                            and
+                            has been
+                            described as an economic bubble by at least eight recipients of the Nobel Memorial Prize
+                            in
+                            Economic
+                            Sciences.</li>
+                        <li>24 countries, including China, have banned or seriously curtailed the use of Bitcoin.
+                        </li>
+                        <li>The bitcoin network is technically antiquated, does not allow for smart contract
+                            functionality, and its
+                            conservative community has proven resistant to innovation.</li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Ethereum</strong>, the original "smart contract" blockchain, provides not only a
+                    network-native cryptocurrency, but also allows for the registration and execution of on-chain code.
+                </summary>
+                <article>
+
+                    <p><small>Launched: July 2015</small>
+                        <br><small>Founder: Vitalik Buterin</small><br><small>Token: Ether</small>
+                    </p>
+                    <p> Features:
+                    </p>
+                    <ul>
+                        <li>Developers write and deploy bundles of stored data and callable functions (contracts), which
+                            live
+                            at their own on-chain address and can receive, store and send Ether.</li>
+                        <li>Externally Owned Accounts are simply equivalent on-chain addresses controlled directly by
+                            private
+                            keys. They can receive, store, and send Ether, but do not contain stored data or callable
+                            code.</li>
+                        <li>Ethereum network participants process blocks of cryptographically-signed transactions, not
+                            only
+                            transferring Ether from account to account, but also triggering function calls to deployed
+                            contract
+                            code.</li>
+                        <li>The Sept 2022 switch to a proof-of-stake consensus model increased energy efficiency and
+                            lowered
+                            inflation.</li>
+
+                    </ul>
+                    <p> Criticisms:
+                    </p>
+                    <ul>
+                        <li>The Ethereum protocol is still <a
+                                href="https://pbs.twimg.com/media/FFm9X58WQAgwkKI.jpg">under active development</a>, and
+                            its progress has been
+                            criticized
+                            as
+                            slower than more nimble, upstart rivals.
+                        </li>
+                        <li>Ethereum transactions are slower and more expensive than many rival Layer 1 blockchains.
+                        </li>
+                        <li>While praised for transparency and openness to community participation, Ethereum’s core
+                            development team maintains a degree of centralized control over the protocol.</li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Solana</strong> is an innovative smart contract blockchain known for fast, inexpensive
+                    transactions, but centralized due to hardware requirements and the economics of its delegated
+                    staking model.
+                </summary>
+                <article>
+                    <p> <small>Launched: March 2020</small><br><small>
+                            Founder: Anatoly Yakovenko (veteran Qualcomm engineer)</small><br><small>Token: SOL</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>2,000 (live) to 50,000 (tested) transactions per second vs Ethereum’s current ~10 t/s,
+                            enabled
+                            by a series of <a
+                                href="https://genesisblockhk.com/what-is-solana/#8-Core-Innovations-of-Solana">8
+                                technical innovations</a>.
+                        </li>
+                        <li>
+                            Proof-of-history mechanism allows for time-stamped transactions, reducing
+                            communication
+                            overhead between nodes.
+                        </li>
+                        <li>
+                            Parallel processing runtime allows transactions on discrete pieces of global state to
+                            be run
+                            concurrently.</li>
+                    </ul>
+                    <p> Criticisms:
+                    </p>
+                    <ul>
+                        <li>60% of SOL tokens were allocated to investors & insiders at launch</li>
+                        <li>Demanding hardware and bandwidth requirements, push stakers towards using AWS and other data
+                            centers to host validator nodes, creating points of failure / control.</li>
+                        <li>Centralization of stakers means currently the <a
+                                href="https://solanabeach.io/validators">top 30</a> (of ~1800) validators control a
+                            third of
+                            the network and could coordinate to halt execution.</li>
+                        <li>There have been several network outages due to both overloaded transaction volumes and
+                            deliberate denial of service attacks that required a high-degree of validator coordination
+                            to
+                            restart the network.</li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>BNB Chain</strong> is an Ethereum fork, controlled by the
+                    Binance
+                    cryptocurrency
+                    exchange, know for beginner accessibility, cheap transactions, and playing unwilling host to
+                    an endless parade of pump-and-dump scam tokens.
+                </summary>
+                <article>
+                    <p> <small>Launched: September 2020</small><br><small>
+                            Founder: Binance Corporation</small><br><small>Token: BNB</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Efficient (but centralized) Proof of Staked Authority consensus model, allows coin holders
+                            to stake BNB coins with 21 approved
+                            validators.</li>
+                        <li>Users receive discounted fees when trading on the Binance centralized cryptocurrency
+                            exchange platform.</li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li>Centralized consensus model, with authorized validators chosen by Binance.</li>
+                        <li>Has a reputation for hosting pump-and-dump scam
+                            tokens.</li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Avalanche</strong> is an <abbr title="Ethereum Virtual Machine">EVM</abbr>-compatible,
+                    proof-of-stake blockchain spun out of Cornell University
+                    emphasizing fault-tolerance, democratic development and an inclusive consensus model.</summary>
+                <article>
+                    <p><small>Launched: September 2020</small><br><small>Founders: Cornell University
+                            Researchers</small><br><small>Token: AVAX</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Consists of three distinct chains: one for exchanging assets, one for hosting smart
+                            contracts, and
+                            one for coordinating validators.</li>
+                        <li>4,500 transactions per second (vs Ethereum's 14 t/s) with ~1 second finality, enabled by a
+                            unique protocol sampling
+                            sub-sets of validators.</li>
+                        <li>Sub-nets offer app-specific chain customization while retaining interoperability.</li>
+                    </ul>
+
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li>Has struggled with user-adoption in the face of larger rivals like Ethereum and Solana.</li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Cardano</strong> is a controversial Ethereum alternative,
+                    founded in 2017 by Ethereum's estranged ex-CEO, Charles Hoskinson.</summary>
+                <article>
+                    <p><small>Launched: Sept 2017</small><br>
+                        <small>Founder: Charles Hoskinson
+                        </small><br><small>Token: ADA</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Early implementer of energy-efficient proof-of-stake consensus with proprietary
+                            Ouroboros protocol.</li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li>Cardano advocates are considered somewhat insular from the wider crypto community and the
+                            project has failed to gain wide adoption vs better-known Ethereum. </li>
+                    </ul>
+                </article>
+            </details>
+        </section>
+        <section>
+            <p><strong>Decentralized Applications</strong> are smart contracts, deployed on one or more blockchains,
+                that
+                can operate autonomously to provide some function or utility to end users or other applications. DApps
+                often
+                distribute tokens that represent ownership or governance rights.</p>
+        </section>
+        <section>
+            <p><strong>Decentralized Content Delivery Networks</strong>
+                store user & application data in a decentralized manner,
+                hosted by incentivized network participants running specialized software. Data may be publicly available
+                (like a website) or cryptographically secured.</p>
+        </section>
+        <section>
+            <p><strong>Stablecoins</strong> are on-chain currencies whose price tracks an underlying reference asset
+                (often US Dollars). Useful for on-chain payments or held as
+                cash-equivalent reserve assets. Either collateralized by real-world assets or
+                algorithmically-pegged (dangerous!).
+            </p>
+            <details>
+                <summary><strong>Dai</strong> is a collateralized stablecoin backed by the MakerDAO community governance
+                    system and treasury.</summary>
+                <article>
+                    <p><small>Launched: </small><br>
+                        <small>Founder:
+                        </small><br><small>Token:</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+        </section>
+        <section>
+            <p><strong>Decentralized Lending Platforms</strong> are deployed smart contracts that allow users to lend
+                and borrow cryptocurrencies using a variety on and off-chain mechanics for collateralization and
+                repayment.</p>
+            <details>
+                <summary><strong>Aave</strong> is a decentralized liquidity provider.</summary>
+                <article>
+                    <p><small>Launched: Nov 2017</small><br>
+                        <small>Founder: Stani Kulechov
+                        </small><br><small>Token: AAVE</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Compound</strong> </summary>
+                <article>
+                    <p><small>Launched: </small><br>
+                        <small>Founder:
+                        </small><br><small>Token:</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Maker</strong> </summary>
+                <article>
+                    <p><small>Launched: </small><br>
+                        <small>Founder:
+                        </small><br><small>Token:</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+        </section>
+        <section>
+            <p><strong>Decentralized Exchanges</strong>, or DEXs, are deployed smart contract code that allows users to
+                swap cryptocurrencies without an
+                intermediary.</p>
+            <details>
+                <summary><strong>Uniswap</strong> </summary>
+                <article>
+                    <p><small>Launched: </small><br>
+                        <small>Founder:
+                        </small><br><small>Token:</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>dYdX</strong> </summary>
+                <article>
+                    <p><small>Launched: </small><br>
+                        <small>Founder:
+                        </small><br><small>Token:</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Curve</strong> </summary>
+                <article>
+                    <p><small>Launched: </small><br>
+                        <small>Founder:
+                        </small><br><small>Token:</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+            <details>
+                <summary><strong>Pancake Swap</strong> </summary>
+                <article>
+                    <p><small>Launched: </small><br>
+                        <small>Founder:
+                        </small><br><small>Token:</small>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>Criticisms:</p>
+                    <ul>
+                        <li> </li>
+                    </ul>
+                </article>
+            </details>
+        </section>
+        <section>
+            <p><strong>Cross-Chain Bridges</strong> allow users and smart contracts to pass messages
+                and digital assets between blockchains.</p>
+        </section>
+    </main>
+    <footer>Contributions? Comments? Please email the maintainer:
+        douglas.calhoun@gmail.com</footer>
+</body>
+
+</html>
